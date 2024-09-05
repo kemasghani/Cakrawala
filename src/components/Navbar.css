@@ -1,0 +1,28 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: transparent;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+}
+
+.navLink {
+    margin: 0 15px;
+}
+
+.navLink a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    color: #fff;
+}
