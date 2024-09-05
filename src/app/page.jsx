@@ -1,7 +1,8 @@
 // pages/index.js (or pages/home.js)
 "use client";
 import VideoTextEffect from "../components/VideoTextEffect";
-import React, { useState, useEffect } from 'react';
+import Services from "../components/services";
+import React from 'react';
 
 export default function Home() {
 
@@ -9,6 +10,7 @@ export default function Home() {
     <>
       <section className="">
         <VideoTextEffect />
+        <Services />
       </section>
     </>
   );

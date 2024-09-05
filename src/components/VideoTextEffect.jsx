@@ -18,7 +18,7 @@ const VideoTextEffect = () => {
                             loading="lazy"
                         />
                     </div>
-                    <ul className="navLinks">
+                    <ul className="navLinks -translate-y-[115px]">
                         <li className="navLink">
                             <Link href="/">Projects</Link>
                         </li>
